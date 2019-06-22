@@ -1,8 +1,9 @@
 module.exports = (firstKey, secondKey) => {
-  if (typeof Number.parseInt(firstKey) !== 'number') {
+  if (Number.isNaN(Number.parseInt(firstKey))) {
     return false;
   }
-  if (!/^(\d.\d?(.\d)?)|((I|V|X)(I|V|X))$/g.test(secondKey)) {
+  const regex = /\d+\.\d*(\.\d*)*$/g;
+  if (!regex.test(secondKey)) {
     return false;
   }
   return true;
