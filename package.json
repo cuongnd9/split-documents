@@ -9,6 +9,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "textract": "^2.5.0"
+    "textract": "^2.5.0",
+    "thinid": "^0.4.1"
   }
 }
