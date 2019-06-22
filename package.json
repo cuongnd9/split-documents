@@ -1,0 +1,8 @@
+{
+  "name": "split-documents",
+  "version": "1.0.0",
+  "description": "Easy to split documents with Nodejs.",
+  "main": "index.js",
+  "author": "Cuong Duy Nguyen",
+  "license": "MIT"
+}
