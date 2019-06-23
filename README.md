@@ -14,6 +14,10 @@
 $ yarn
 ```
 
+### Create `docx-file`
+
+This is a folder contain all docx files.
+
 ### Run this app
 
 ```sh
